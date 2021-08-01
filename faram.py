@@ -40,10 +40,10 @@ headers={
     'x-requested-with': 'XMLHttpRequest',
 }
 banek='''\x1b[1;97m
- [\033[32m1\x1b[1;97m] - Crack NUMBER+Password
- [\033[32m2\x1b[1;97m] - Crack NUMBER+NUMBER
- [\033[32m3\x1b[1;97m] - Crack GMAIL+PASSWORD
- [\033[32m4\x1b[1;97m] - Crack EMAIL+PASSWORD
+ [\033[32m1\x1b[1;97m] - Crack RAQAM+PASS
+ [\033[32m2\x1b[1;97m] - Crack RAQAM+RAQAM
+ [\033[32m3\x1b[1;97m] - Crack GMAIL+RAQAM
+ [\033[32m4\x1b[1;97m] - Crack EMAIL+PASS
  [\033[32m0\x1b[1;97m] - Exit Tool
 '''
 logo = '''\x1b[1;92m
@@ -58,12 +58,13 @@ logo = '''\x1b[1;92m
 
  
  Telegram: i4m_REX
- Channal : Cod3r
+ Channal : BESTxHACKER
+ ---------------------------------------------------------------------Yak Sahat Bo Dw Sahat Rawsta
  '''
 logo2 = '\x1b[90;1m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[0;1m'
 
-def reba(TLYAK):
-	for e in TLYAK + '\n':
+def reba(FARA):
+	for e in FARA + '\n':
 		sys.stdout.write(e)
 		sys.stdout.flush()
 		time.sleep(0.010)
