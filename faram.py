@@ -57,9 +57,9 @@ logo = '''\x1b[1;92m
                                                                           
 
  
- Telegram: i4m_REX
- Channal : BESTxHACKER
- ---------------------------------------------------------------------Yak Sahat Bo Dw Sahat Rawsta
+ Telegram shaxsy: i4m_REX
+ Telegram Channal : BESTxHACKER
+ ---------------------------------------------------------------------Yak Sahat Bo Dw Sahat Rawsta Bo rawstandne Tool Ctrl+z Dabgra
  '''
 logo2 = '\x1b[90;1m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[0;1m'
 
