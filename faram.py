@@ -191,7 +191,7 @@ def crack():
 		
 			r4+=1
 			os.system('clear')
-		    os.system('figlet fara')
+	
 			print(logo)
 			print(logo2)
 			print('\033[32m OK : '+str(r1))
