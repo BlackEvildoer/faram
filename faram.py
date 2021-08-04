@@ -58,12 +58,15 @@ logo = '''\x1b[1;92m
                                                                           
                                                                
                                                                           
-
+  New Update : V2.7
  github : https://github.com/fardinHack
  Auther : i4m_REX
  Telegram Channal : IM_EROR_HACKER
- ---------------------------------------------------------------------
+ 
+                                         New updated[v2.7]
+ -------------------------------------------------------------
  Pleas wait 1h or 2h Thank you for using it
+ Thnak You
  '''
 logo2 = '\x1b[90;1m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[0;1m'
 
@@ -169,7 +172,7 @@ def crack():
 			os.system('figlet fara')
 			print(logo)
 			print(logo2)
-			print('\033[32m OK : '+str(r1))
+			print('\033[32m Hacked : '+str(r1))
 			print('\033[93m Checkpoint : '+str(r2))
 			print('\033[31m Bad : '+str(r3))
 			print(logo2)
@@ -183,7 +186,7 @@ def crack():
 			os.system('figlet fara')
 			print(logo)
 			print(logo2)
-			print('\033[32m OK : '+str(r1))
+			print('\033[32m Hacked : '+str(r1))
 			print('\033[93m CP : '+str(r2))
 			print('\033[31m Bad : '+str(r3))
 			print(logo2)
@@ -194,7 +197,7 @@ def crack():
 	
 			print(logo)
 			print(logo2)
-			print('\033[32m OK : '+str(r1))
+			print('\033[32m Hacked : '+str(r1))
 			print('\033[93m CP : '+str(r2))
 			print('\033[31m Bad : '+str(r3))
 			print(logo2)
@@ -209,7 +212,7 @@ def crack():
 			os.system('figlet fara')
 			print(logo)
 			print(logo2)
-			print('\033[32m OK : '+str(r1))
+			print('\033[32m Hacked : '+str(r1))
 			print('\033[93m Checkpoint : '+str(r2))
 			print('\033[31m Bad : '+str(r3))
 			print(logo2)
