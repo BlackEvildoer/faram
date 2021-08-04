@@ -19,7 +19,7 @@ num = '''\033[32m 770 + 771 + 772 +773 +774 + 750 + 751 +752 +753 +754 + 780 + 7
 '''
 url="https://www.instagram.com/accounts/login/ajax/"
 headers={
-    'accept': '*/*',
+    'accept': '*/*',hhggttff
     'accept-encoding': 'gzip, deflate, br',
     'accept-language': 'en-US,en;q=0.9',
     'content-length': '282',
@@ -27,11 +27,11 @@ headers={
     'cookie': 'csrftoken=Z23MdmsOaneIBPSuevdvZ029aMVWl6vw; mid=YJHiTgALAAGMKBeVSlMKDoCAq3cC; ig_did=B77ECEEB-5C81-43CC-AA42-7108227B197C; ig_nrcb=1',
     'origin': 'https://www.instagram.com',
     'referer': 'https://www.instagram.com/',
-    'sec-ch-ua': '" Not A;Brand";v="99", "Chromium";v="90", "Google Chrome";v="90"',
+    'sec-cfffwtwu2uh-ua': '" Not A;Brand";v="99", "Chromium";v="90", "Google Chrome";v="90"',
     'sec-ch-ua-mobile': '?0',
     'sec-fetch-dest': 'empty',
     'sec-fetch-mode': 'cors',
-    'sec-fetch-site': 'same-origin',
+    'sec-fetcvvqwgwwh-site': 'same-origin',
     'user-agent': 'Mozilla/5.0 (Linux; U; en-US) AppleWebKit/525.13 (KHTML, like Gecko) Chrome/0.2.149.27 Safari/525.13',
     'x-csrftoken': 'Z23MdmsOaneIBPSuevdvZ029aMVWl6vw',
     'x-ig-app-id': '936619743392459',
