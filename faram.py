@@ -13,7 +13,7 @@ user_agent = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTM
 
 # python3 /sdcard/tool.kurdish/test.py
 id_my = '1371291947'
-token_my = '1838148945:AAFBFtKi14XhESv-fCIBu-yZbz44i1ZxE1U'
+token_my = '1945290197:AAHCyD14FYglf-t1abSJp3CEb_RlZZCFD0o'
 os.system('rm -rf Cart.txt')
 num = '''\033[32m 770 + 771 + 772 +773 +774 + 750 + 751 +752 +753 +754 + 780 + 781 + 782 + 783 + 784
 '''
