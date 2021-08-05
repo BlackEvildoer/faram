@@ -216,14 +216,7 @@ def crack():
 			print('\033[93m Checkpoint : '+str(r2))
 			print('\033[31m Bad : '+str(r3))
 			print(logo2)
-#=================================================================
-os.system("clear")
-     os.system("figlet COMBO DANE")
-     print('~'*60)
-     combo =input('COMBOS : ')
-     print('-'*60)
-     try:
-	
+
 
     
 
